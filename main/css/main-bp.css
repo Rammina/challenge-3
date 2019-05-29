@@ -6,6 +6,20 @@
 	}
 }
 
+@media screen and (min-width: 750px){
+	.experience-description-container{
+		width: 75%;
+	}
+
+	.experience-date-container{
+		width: 25%;
+	}
+	.experience-date{
+		margin: 0.3rem auto;
+		text-align: right;
+	}
+}
+
 @media screen and (min-width: 1000px){
 	main{
 		padding-top: 0;

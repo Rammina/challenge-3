@@ -13,7 +13,7 @@ main {
 	align-items: center;
 	width: 100%;
 	position: relative;
-	min-height: 40rem;
+	min-height: 20rem;
 	height: auto;
 	border-bottom: 1px solid #bbb;
 	padding: 1rem;
@@ -22,16 +22,17 @@ main {
 	/*position: absolute;*/
 	/*margin: auto;*/
 	width: 100%;
-	max-width: 72rem;
-	min-height: 30rem;
+	max-width: 67rem;
+	/*min-height: 30rem;*/
 	/* background-color: pink;  */
 }
 
 .about-name {
 	font-family: 'Raleway', sans-serif;
 	font-size: 4.7rem;
-	line-height: 5rem;
+	line-height: 4.9rem;
 	text-transform: uppercase;
+	margin: 0.8rem auto;
 }
 
 .about-last-name {
@@ -45,5 +46,46 @@ main {
 	font-size: 1.35rem;
 	opacity: 0.7;
 	text-transform: uppercase;
-	line-height: 1.7rem
+	line-height: 1.7rem;
+	margin: 0.8rem auto;
+}
+
+.about-description{
+	margin: 3rem auto;
+}
+
+.content-title{
+	margin: 3rem auto;
+}
+
+.experience-container-outer{
+	margin: 2.8rem auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.experience-description-container{
+	width: 100%;
+}
+.experience-title{
+	margin: 0.3rem auto;	
+}
+.experience-company{
+	margin: 0.3rem auto;	
+}
+.experience-description{
+	margin: 1.3rem auto;
+}
+.experience-date-container{
+	width: 100%;
+}
+.experience-date{
+	margin: 1rem auto;
+}
+
+.education-container-outer{
+	margin: 2.8rem auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
