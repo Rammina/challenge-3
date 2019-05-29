@@ -1,7 +1,29 @@
-/* random comment */
 main {
+	padding-top: 3.5rem;
+
 	min-width: 100%;
 	min-height: 100rem;
-	background-color: #555;
+	background-color: #EEE9E3;
+	color: #172233;
+}
 
+.section-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 100%;
+	position: relative;
+	min-height: 40rem;
+	height: auto;
+	border-bottom: 1px solid #bbb;
+	padding: 1rem;
+}
+.content-outer{
+	/*position: absolute;*/
+	/*margin: auto;*/
+	width: 100%;
+	max-width: 72rem;
+	min-height: 30rem;
+	background-color: pink; 
 }

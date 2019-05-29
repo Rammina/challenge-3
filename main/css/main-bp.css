@@ -1,1 +1,16 @@
 /* Width breakpoints */
+@media screen and (min-width: 700px){
+	.section-container{
+		min-height: 61rem;
+		padding: 2rem;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	main{
+		padding-top: 0;
+		padding-left: 17rem;
+	}
+}
+
+/*width And height bp*/
