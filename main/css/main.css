@@ -1,13 +1,12 @@
 main {
 	padding-top: 3.5rem;
-
 	min-width: 100%;
 	min-height: 100rem;
 	background-color: #EEE9E3;
-	color: #172233;
+	color: #313131;
 }
 
-.section-container{
+.section-container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -19,11 +18,32 @@ main {
 	border-bottom: 1px solid #bbb;
 	padding: 1rem;
 }
-.content-outer{
+.content-outer {
 	/*position: absolute;*/
 	/*margin: auto;*/
 	width: 100%;
 	max-width: 72rem;
 	min-height: 30rem;
-	background-color: pink; 
+	/* background-color: pink;  */
+}
+
+.about-name {
+	font-family: 'Raleway', sans-serif;
+	font-size: 4.7rem;
+	line-height: 5rem;
+	text-transform: uppercase;
+}
+
+.about-last-name {
+	color: #172233;
+	text-shadow: 1px 1px 1px rgba(79,47,17,0.75), 1.5px 1.5px 1px rgba(0,0,0,0.75);
+	font-size: 5.1rem;
+}
+
+.about-address {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.35rem;
+	opacity: 0.7;
+	text-transform: uppercase;
+	line-height: 1.7rem
 }
