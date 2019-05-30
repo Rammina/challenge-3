@@ -36,56 +36,83 @@ main {
 }
 
 .about-last-name {
-	color: #172233;
+	color: #581d22;
 	text-shadow: 1px 1px 1px rgba(79,47,17,0.75), 1.5px 1.5px 1px rgba(0,0,0,0.75);
 	font-size: 5.1rem;
 }
 
 .about-address {
 	font-family: 'Lato', sans-serif;
-	font-size: 1.35rem;
-	opacity: 0.7;
+	font-size: 1.2rem;
+	opacity: 0.9;
 	text-transform: uppercase;
+	font-style: italic;
 	line-height: 1.7rem;
 	margin: 0.8rem auto;
+	color: #233d3d;
 }
 
-.about-description{
+#about-email {
+	display: block;
+	color: #581d22;
+}
+
+.about-description {
 	margin: 3rem auto;
+	font-size: 1.2rem; 
 }
 
-.content-title{
+.content-title {
 	margin: 3rem auto;
+	font-size: 2.6rem;
+	text-transform: uppercase;
 }
 
-.experience-container-outer{
+.experience-container-outer {
 	margin: 2.8rem auto;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
-.experience-description-container{
+.experience-description-container {
 	width: 100%;
 }
-.experience-title{
-	margin: 0.3rem auto;	
+.experience-title {
+	margin: 0.3rem auto;
+	font-size: 1.8rem;
+	text-transform: uppercase;
 }
-.experience-company{
-	margin: 0.3rem auto;	
+.experience-company {
+	margin: 0.3rem auto;
+	font-size: 	1.3rem;
+	text-transform: uppercase;
+	opacity: 0.9;
+	color: #233d3d;
 }
-.experience-description{
+.experience-description {
 	margin: 1.3rem auto;
 }
-.experience-date-container{
+.experience-date-container {
 	width: 100%;
 }
-.experience-date{
+.experience-date {
 	margin: 1rem auto;
+	font-size: 1.2rem;
 }
 
-.education-container-outer{
+.education-container-outer {
 	margin: 2.8rem auto;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+}
+
+.education-school {
+	font-size: 1.75rem;
+	text-transform: uppercase;
+}
+
+.education-degree {
+	font-size: 1.3rem;
+	text-transform: uppercase;
 }

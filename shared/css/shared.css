@@ -84,7 +84,7 @@ li {
 	height: 3.5rem;
 	padding: 0rem;
 	padding-right: 0.7rem;
-	background-color: #172233;
+	background-color: #411519;
 	color: #EEE9E3;
 
 }
@@ -110,7 +110,7 @@ li {
 	line-height: 3.5rem;
 	padding: 0 0.7rem;
 	color: #EEE9E3;
-	background-color: #172233;
+	background-color: #411519;
 	font-size: 1.7rem;
 	/*overflow: hidden;*/
 }
@@ -152,7 +152,7 @@ li {
 	width: 100vw;
 	transform: translateY(-25rem);
 	top: 3.5rem;
-	background-color: #172233;
+	background-color: #411519;
 	/* animation: navbarmenu-hide 0.3s normal forwards; */
 	transition: z-index 0s, visibility 0.4s, transform 0.4s ease-in;
 	/*animation: navbarmenu-show 0.3s reverse; 
