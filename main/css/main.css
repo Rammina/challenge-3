@@ -74,7 +74,7 @@ main {
 	flex-direction: row;
 	flex-wrap: wrap;
 }
-.experience-description-container {
+.experience-description-container, .education-description-container {
 	width: 100%;
 }
 .experience-title {
@@ -92,10 +92,10 @@ main {
 .experience-description {
 	margin: 1.3rem auto;
 }
-.experience-date-container {
+.experience-date-container, .education-date-container {
 	width: 100%;
 }
-.experience-date {
+.experience-date, .education-date {
 	margin: 1rem auto;
 	font-size: 1.2rem;
 }
@@ -107,12 +107,16 @@ main {
 	flex-wrap: wrap;
 }
 
+
+
 .education-school {
 	font-size: 1.75rem;
+	margin: 0.3rem auto;
 	text-transform: uppercase;
 }
 
 .education-degree {
+	margin: 0.3rem auto;
 	font-size: 1.3rem;
 	text-transform: uppercase;
 }

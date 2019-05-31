@@ -7,14 +7,14 @@
 }
 
 @media screen and (min-width: 750px){
-	.experience-description-container{
+	.experience-description-container, .education-description-container{
 		width: 75%;
 	}
 
-	.experience-date-container{
+	.experience-date-container, .education-date-container{
 		width: 25%;
 	}
-	.experience-date{
+	.experience-date, .education-date {
 		margin: 0.3rem auto;
 		text-align: right;
 	}
