@@ -87,7 +87,7 @@ main {
 	font-size: 	1.3rem;
 	text-transform: uppercase;
 	opacity: 0.9;
-	color: #233d3d;
+	color: #3d2334;
 }
 .experience-description {
 	margin: 1.3rem auto;
@@ -97,7 +97,9 @@ main {
 }
 .experience-date, .education-date {
 	margin: 1rem auto;
-	font-size: 1.2rem;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.05rem;
+	color: #5c3639;
 }
 
 .education-container-outer {
