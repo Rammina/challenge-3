@@ -75,6 +75,17 @@ li {
     list-style-type: none;
 }
 
+.no-display.loader-container {
+    display: none;
+ }
+
+.no-display.hide-png {
+    display: none;
+}
+
+.no-display.hide-svg {
+    display: none;
+}
 
 /*navigation bar*/
 .main-header{

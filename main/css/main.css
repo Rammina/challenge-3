@@ -18,6 +18,7 @@ main {
 	border-bottom: 1px solid #bbb;
 	padding: 1rem;
 }
+
 .content-outer {
 	/*position: absolute;*/
 	/*margin: auto;*/
@@ -47,19 +48,86 @@ main {
 	opacity: 0.9;
 	text-transform: uppercase;
 	font-style: italic;
-	line-height: 1.7rem;
+	line-height: 1.8rem;
 	margin: 0.8rem auto;
 	color: #233d3d;
 }
 
+.address-dot {
+	color: black;
+}
+
 #about-email {
-	display: block;
 	color: #581d22;
+	font-style: normal;
+}
+
+#about-email:hover {
+	color: #311013;
+	text-decoration: underline;
+}
+
+#about-email:focus {
+	outline: none;
+	color: #311013;
+	text-decoration: underline;
+	-webkit-box-shadow: 0px 0px 0.5px 1px #FFFFFF, 0px 0px 1px 2px #969696, 0px 0px 2px 3px #000000; 
+    box-shadow: 0px 0px 0.5px 1px #FFFFFF, 0px 0px 1px 2px #969696, 0px 0px 2px 3px #000000;
 }
 
 .about-description {
 	margin: 3rem auto;
 	font-size: 1.2rem; 
+}
+
+.logo-container {
+	margin: 0;
+	margin-bottom: 3rem;
+	margin-left: 8vw;
+	width: 11rem;
+	height: auto;
+}
+
+.logos {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.logo {
+	display: inline-block;
+	margin: 0.5rem auto;
+	/* margin-right: 1.5rem; */
+	width: 4rem;
+	height: 4rem;
+	text-align: center;
+}
+
+.logo-link {
+	display: inline-block;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+}
+
+.logo-link:focus {
+	outline: none;
+    -webkit-box-shadow: 0px 0px 0.5px 1px #FFFFFF, 0px 0px 1px 2px #969696, 0px 0px 2px 3px #000000; 
+    box-shadow: 0px 0px 0.5px 1px #FFFFFF, 0px 0px 1px 2px #969696, 0px 0px 2px 3px #000000;
+}
+
+.logo__svg, .logo__image, .logo__img {
+	width: 4rem;
+	height: 4rem;
+	filter: invert(18%) sepia(0%) saturate(0%) hue-rotate(57deg) brightness(103%) contrast(97%);
+	border-radius: 50%;
+}
+
+.logo__svg {
+
 }
 
 .content-title {

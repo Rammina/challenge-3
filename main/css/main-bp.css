@@ -1,8 +1,27 @@
 /* Width breakpoints */
+@media screen and (min-width: 380px) {
+	.logo-container {
+		margin: 0;
+		margin-bottom: 3rem;
+		/* margin-left: 8vw; */
+		width: 20rem;
+	}
+
+	.logo {
+		margin: 0.5rem 0;
+		margin-right: 1rem;
+	}
+}
+
 @media screen and (min-width: 700px){
 	.section-container{
-		min-height: 61rem;
+		min-height: 63rem;
 		padding: 2rem;
+	}
+	.logo {
+		width: 4rem;
+		height: 4rem;
+
 	}
 }
 
@@ -21,9 +40,12 @@
 }
 
 @media screen and (min-width: 1000px){
-	main{
+	main {
 		padding-top: 0;
 		padding-left: 17rem;
+	}
+	#about-email {
+		display: inline;
 	}
 }
 
