@@ -46,7 +46,7 @@ button {
 button:focus {
     outline: none;
     -webkit-box-shadow: inset 0px 0px 0.5px 1px #FFFFFF, inset 0px 0px 1px 2px #969696, inset 0px 0px 2px 3px #000000; 
-    box-shadow: inset 0px 0px 0.5px 1px #FFFFFF, inset 0px 0px 1px 2px #969696, inset 0px 0px 2px 3px #000000;
+  	box-shadow: inset 0px 0px 0.5px 1px #FFFFFF, inset 0px 0px 1px 2px #969696, inset 0px 0px 2px 3px #000000;
 }
 
 input:focus {
@@ -101,7 +101,7 @@ li {
 }
 .main-nav{
 	/*z-index: 101;*/
-
+	position: relative;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -129,7 +129,21 @@ li {
 	display: none;
 }
 
+.nav__portrait-link{
+	display: inline-block;
+	position: absolute;
+	height: 10rem;
+	width: 10rem;
+	border-radius: 50%;
+	top: calc(50vh - 16rem);
+	margin-top: 10%;
+}
+.nav__portrait-link:focus{
+	
+	-webkit-box-shadow: 0px 0px 0.5px 10px #000, 0px 0px 1px 12px #969696, 0px 0px 3px 13px #fff; 
+	box-shadow: 0px 0px 0.5px 10px #000, 0px 0px 1px 12px #969696, 0px 0px 3px 13px #fff;
 
+}
 .nav__menu{
 	display: inline-block;
 	width: 3rem;
@@ -204,10 +218,16 @@ li {
 
 .nav__item:focus {
 	outline: none;
+	margin-left: 0.5rem;
 	-webkit-box-shadow: inset 0px 0px 0.5px 1px #FFFFFF, inset 0px 0px 1px 2px #969696, inset 0px 0px 2px 3px #000000; 
     box-shadow: inset 0px 0px 0.5px 1px #FFFFFF, inset 0px 0px 1px 2px #969696, inset 0px 0px 2px 3px #000000;
 }
-
+.indicator{
+	display: none;
+}
+.indicator.show{
+	display: inline;
+}
 
 /* @keyframes navbarmenu-show{
 	0%{

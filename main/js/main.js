@@ -34,6 +34,7 @@ var navbar = {
 	menuitemscontainer: document.querySelector(".nav__items-container"),
 	menuitems: document.querySelector(".nav__items"),
 	menuitem: document.querySelectorAll(".nav__item"),
+	indicator: document.querySelectorAll(".indicator"),
 	showMenu: function showMenu() {
 		navbar.menuitemscontainer.classList.add("show")
 		navbar.menubutton.setAttribute("aria-expanded", "true");
@@ -122,11 +123,13 @@ window.onscroll = function (event)
 		for(let index = 0; index < navbar.menuitem.length; index++) {
 			if(index !== 0) {
 				navbar.menuitem[index].classList.remove("current");
-
+				navbar.indicator[index].classList.remove("show");
 			}
 
 		}
 		navbar.menuitem[0].classList.add("current");
+		navbar.indicator[0].classList.add("show");
+
 
 	}
 	// Highlight experience after scrolling down to its position
@@ -135,10 +138,12 @@ window.onscroll = function (event)
 			if(index !== 1){
 
 			 navbar.menuitem[index].classList.remove("current");
+			 navbar.indicator[index].classList.remove("show");
 
 			}
 		}
-	navbar.menuitem[1].classList.add("current");
+		navbar.menuitem[1].classList.add("current");
+		navbar.indicator[1].classList.add("show");
 	}
 
 	// Highlight education after scrolling down to its position
@@ -146,9 +151,11 @@ window.onscroll = function (event)
 		for(let index = 0; index < navbar.menuitem.length; index++) {
 			if(index !== 2) {
 				navbar.menuitem[index].classList.remove("current");
+				navbar.indicator[index].classList.remove("show");
 			}
 		}
 		navbar.menuitem[2].classList.add("current");
+		navbar.indicator[2].classList.add("show");
 	}
 
 	// Highlight skills after scrolling down to its position
@@ -156,9 +163,11 @@ window.onscroll = function (event)
 		for(let index = 0; index < navbar.menuitem.length; index++) {
 			if(index !== 3) {
 				navbar.menuitem[index].classList.remove("current");
+				navbar.indicator[index].classList.remove("show");
 			}
 		}
 		navbar.menuitem[3].classList.add("current");
+		navbar.indicator[3].classList.add("show");
 	}
 
 	// Highlight interests after scrolling down to its position
@@ -167,9 +176,11 @@ window.onscroll = function (event)
 			if(index !== 4){
 
 			 	navbar.menuitem[index].classList.remove("current");
+			 	navbar.indicator[index].classList.remove("show");
 			}
 		}
 		navbar.menuitem[4].classList.add("current");
+		navbar.indicator[4].classList.add("show");
 	}
 
 	// highlight awards after scrolling to its position
@@ -177,10 +188,22 @@ window.onscroll = function (event)
 		for(let index = 0; index < navbar.menuitem.length; index++) {
 			if(index !== 5){
 				navbar.menuitem[index].classList.remove("current");
+				navbar.indicator[index].classList.remove("show");
 			}
 		}
 		navbar.menuitem[5].classList.add("current");
+		navbar.indicator[5].classList.add("show");
 	}
 }
 
 
+for(let index = 0; index < navbar.menuitem.length; index++) {
+	navbar.menuitem[index].addEventListener("focus", function(){
+		// navbar.indicator[index].classList.add("show");
+	});
+
+	navbar.menuitem[index].addEventListener("blur", function(){
+		// navbar.indicator[index].classList.remove("show");
+	});
+
+}

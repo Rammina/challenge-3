@@ -16,6 +16,10 @@
 	.nav__name{
 		display: none;
 	}
+	.nav__portrait-link{
+		display: inline-block;
+	}
+
 	.nav__portrait-container{
 		z-index: 101;
 		position: relative;

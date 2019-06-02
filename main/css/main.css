@@ -127,7 +127,7 @@ main {
 }
 
 .logo__svg {
-
+	background-size: 4rem;
 }
 
 .content-title {
@@ -187,6 +187,13 @@ main {
 
 .education-degree {
 	margin: 0.3rem auto;
+	margin-bottom: 1.7rem;
 	font-size: 1.3rem;
 	text-transform: uppercase;
+}
+
+.education-track, .education-grades{
+	margin: 0.3rem auto;
+	font-size: 1.15rem;
+	font-family: 'Lato', sans-serif;
 }
