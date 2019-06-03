@@ -130,6 +130,7 @@ li {
 }
 
 .nav__portrait-link{
+	z-index: 105;
 	display: none;
 	position: absolute;
 	height: 10rem;
@@ -140,8 +141,8 @@ li {
 }
 .nav__portrait-link:focus{
 	
-	-webkit-box-shadow: 0px 0px 0.5px 10px #000, 0px 0px 1px 12px #969696, 0px 0px 3px 13px #fff; 
-	box-shadow: 0px 0px 0.5px 10px #000, 0px 0px 1px 12px #969696, 0px 0px 3px 13px #fff;
+	-webkit-box-shadow: 0px 0px 0.5px 10px #69282d, 0px 0px 1px 12px #969696, 0px 0px 3px 13px #fff; 
+	box-shadow: 0px 0px 0.5px 10px #69282d, 0px 0px 1px 12px #969696, 0px 0px 3px 13px #fff;
 
 }
 .nav__menu{
@@ -210,6 +211,9 @@ li {
 	padding: 0.8rem;
 	padding-left: 1.2rem;
 }
+.nav__item:hover{
+	color: #ccf9f7;
+}
 
 .nav__item.current {
 	color: #ccf9f7;
@@ -223,6 +227,7 @@ li {
     box-shadow: inset 0px 0px 0.5px 1px #FFFFFF, inset 0px 0px 1px 2px #969696, inset 0px 0px 2px 3px #000000;
 }
 .indicator {
+
 	display: none;
 	position: relative;
 	width: 1rem;

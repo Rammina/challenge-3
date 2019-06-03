@@ -18,6 +18,9 @@
 		margin: 0 auto;
 		width: 18rem;
 	}
+	#awards-title{
+		font-size: 2.6rem;
+	}
 }
 
 @media screen and (min-width: 500px) {
@@ -37,6 +40,8 @@
 
 	}
 	.skills-logo{width: 16.5%;}	
+
+	/*.skills-workflows{padding-left: 2rem;}*/
 }
 
 @media screen and (min-width: 750px){
@@ -58,9 +63,14 @@
 		padding-top: 0;
 		padding-left: 17rem;
 	}
+	.section-container{
+		padding-left: 3rem;
+	}
 	#about-email {
 		display: inline;
 	}
+	.interest-paragraph{padding-left: 1rem;}
+
 }
 
 /*width And height bp
