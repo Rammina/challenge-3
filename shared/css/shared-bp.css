@@ -1,6 +1,5 @@
 /* Width breakpoints */
 @media screen and (min-width: 1000px){
-
 	.main-header {
 		width: 17rem;
 		height: 100vh;
@@ -52,13 +51,14 @@
 		margin-bottom: 1rem;
 
 	}
-	.nav__items{
+	.nav__items {
 		/*padding-top: 0;*/
 		text-align: center;
 	}
 	.nav__item{
-		text-align: center;
+		text-align: left;
 		width: 100%;
+		padding-left: 25%;
 	}
 
 }

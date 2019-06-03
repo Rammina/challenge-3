@@ -130,7 +130,7 @@ li {
 }
 
 .nav__portrait-link{
-	display: inline-block;
+	display: none;
 	position: absolute;
 	height: 10rem;
 	width: 10rem;
@@ -218,14 +218,20 @@ li {
 
 .nav__item:focus {
 	outline: none;
-	margin-left: 0.5rem;
+	padding-left: 30%;
 	-webkit-box-shadow: inset 0px 0px 0.5px 1px #FFFFFF, inset 0px 0px 1px 2px #969696, inset 0px 0px 2px 3px #000000; 
     box-shadow: inset 0px 0px 0.5px 1px #FFFFFF, inset 0px 0px 1px 2px #969696, inset 0px 0px 2px 3px #000000;
 }
-.indicator{
+.indicator {
 	display: none;
+	position: relative;
+	width: 1rem;
+	height: 1rem;
+	top: 0.1rem;
+	margin-right: 0.6rem;
+	filter: invert(91%) sepia(17%) saturate(297%) hue-rotate(126deg) brightness(100%) contrast(99%);
 }
-.indicator.show{
+.indicator.show {
 	display: inline;
 }
 
