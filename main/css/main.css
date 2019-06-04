@@ -120,20 +120,21 @@ main {
     /*filter: invert(18%) sepia(11%) saturate(2102%) hue-rotate(306deg) brightness(105%) contrast(83%);	*/
 }
 
-.logo__svg, .logo__image, .logo__img {
+.logo__svg, .logo__image, .logo__png {
 	width: 4rem;
 	height: 4rem;
 	filter: invert(18%) sepia(0%) saturate(0%) hue-rotate(57deg) brightness(103%) contrast(97%);
+	/* fill: #313131; */
 	border-radius: 50%;
 }
 
 .logo__svg {
 	background-size: 4rem;
 }
+
 .logo__svg:hover, .logo__img:hover{
 	filter: invert(18%) sepia(11%) saturate(2102%) hue-rotate(306deg) brightness(105%) contrast(83%);	
 }
-
 
 .content-title {
 	margin: 0rem auto;
@@ -213,14 +214,18 @@ main {
 	color: #4d4d4d;
 }
 
-.skills-logo-container{
+.skills-logo-container {
+	position: relative;
+	right: 0.7rem;
 	margin-bottom: 3rem;
+
 }
 
 .skills-container{
 	margin: 0 auto;
 	width: 16.5rem;
 }
+
 .skills-logos {
 	
 }
@@ -229,9 +234,17 @@ main {
 	display: inline-block;
 	margin: 0.5rem auto;
 	/* margin-right: 1.5rem; */
-	width: 25%;
+	width: 30%;
 	height: 3.5rem;
 	text-align: center;
+}
+
+.double-filter {
+	filter: invert(18%) sepia(0%) saturate(0%) hue-rotate(57deg) brightness(103%) contrast(97%);
+}
+
+.double-filter:hover {
+	filter: invert(22%) sepia(6%) saturate(3838%) hue-rotate(306deg) brightness(90%) contrast(85%);
 }
 
 .skills-svg, .skills-png, .skills-image {
@@ -239,11 +252,25 @@ main {
 	height: 3.5rem;
 	border-radius: 0;
 }
-
-.skills-svg:hover, .skills-png:hover{
-	filter: invert(18%) sepia(11%) saturate(2102%) hue-rotate(306deg) brightness(105%) contrast(83%);	
+#less-png {
+	width: 4.375rem;
+	height: 1.8375rem;
+	margin-top: 0.83125rem;
+	margin-bottom: 0.83125rem;
 }
 
+#gulp-png {
+	position: relative;
+	width: 3.99rem;
+	height: 5.25rem;
+	bottom: 0.6rem;
+	/* margin-left: 0.42rem;
+	margin-right: 0.42rem; */
+}
+
+.black-filter.skills-svg, .black-filter.skills-png {
+	filter: brightness(0) saturate(100%);
+}
 
 .skills-workflows, .awards-list{
 	padding-left: 1rem;
@@ -255,12 +282,20 @@ main {
 	margin-bottom: 0.3rem;
 }
 
+.skills-workflows {
+	list-style-image: url("../images/star.png");
+}
+
 .interest-paragraph{
 	padding-left: 0.7rem;
 }
 
 #awards-title{
 	font-size: 2.4rem;
+}
+
+.awards-list {
+	list-style-image: url("../images/medal.png");
 }
 
 .awards-item{
