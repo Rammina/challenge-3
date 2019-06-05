@@ -273,18 +273,25 @@ main {
 }
 
 .skills-workflows, .awards-list{
+	/*position: relative;*/
+	list-style-position: inside;
 	padding-left: 1rem;
 }
 
 .skills-workflow, .awards-item {
+	z-index: 1;
 	font-size: 1.08rem;
 	padding: 0;
 	margin-bottom: 0.3rem;
+	color: black;
+	filter: invert(18%) sepia(0%) saturate(0%) hue-rotate(57deg) brightness(100%) contrast(97%);
 }
 
 .skills-workflows {
+
 	list-style-image: url("../images/star.png");
 }
+
 
 .interest-paragraph{
 	padding-left: 0.7rem;
