@@ -283,8 +283,8 @@ main {
 	font-size: 1.08rem;
 	padding: 0;
 	margin-bottom: 0.3rem;
-	color: black;
-	filter: invert(18%) sepia(0%) saturate(0%) hue-rotate(57deg) brightness(100%) contrast(97%);
+	color: #000;
+	filter: invert(15%) sepia(0%) saturate(1255%) hue-rotate(134deg) brightness(84%) contrast(99%);
 }
 
 .skills-workflows {

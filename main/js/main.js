@@ -223,3 +223,34 @@ for(let index = 0; index < navbar.menuitem.length; index++) {
 	});
 
 }
+
+navbar.menuitem[5].addEventListener("click", function(event){
+	// if (!(navbar.indicator[5].classList.contains("show"))) { }
+	let distanceY = offset.awardsY - window.scrollY;
+	event.preventDefault();
+	window.scrollTo(0, (0.05 * distanceY));
+	setTimeout(function(){
+		window.scrollTo(0, (0.07 * distanceY));
+	}, 50)
+	setTimeout(function(){
+		window.scrollTo(0, (0.10 * distanceY));
+	}, 150)
+	setTimeout(function(){
+		window.scrollTo(0, (0.50 * distanceY));
+	}, 200)
+	setTimeout(function(){
+		window.scrollTo(0, (0.80 * distanceY));
+	}, 250)
+	setTimeout(function(){
+		window.scrollTo(0, (0.85 * distanceY));
+	}, 300)
+	setTimeout(function(){
+		window.scrollTo(0, (0.90 * distanceY));
+	}, 350)
+	setTimeout(function(){
+		window.scrollTo(0, (0.95 * distanceY));
+	}, 400)
+	setTimeout(function(){
+		window.scrollTo(0, (1 * distanceY));
+	}, 450)
+})
