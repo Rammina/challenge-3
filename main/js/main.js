@@ -13,7 +13,7 @@ setTimeout(function () {
     console.log(" HTML loaded");
     document.querySelector(".loader-container").classList.add("no-display"); //Get rid of the loader
   }
-}, 600000);
+}, 20000);
 
 // Checking SVG support
 

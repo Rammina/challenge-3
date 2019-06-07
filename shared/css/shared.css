@@ -100,133 +100,180 @@ li {
    
 }
 
-.cssload-squares{
+#spinningSquaresG {
 	position:relative;
-	display:block;
-	margin: 0 auto;
-	width:193px;
-	left: 0.45rem;
-}
-	
-.cssload-squares, .cssload-squares * {
-	box-sizing: border-box;
-		-o-box-sizing: border-box;
-		-ms-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
+	width: 234px;
+	height: 28px;
+	margin: auto;
+	right: 2.65rem;
 }
 
-.cssload-squares span {
-	display: inline-block;
-	height: 26px;
-	width: 26px;
-	background: rgb(51,17,17);
-	border-radius: 0px;
+.spinningSquaresG{
+	position:absolute;
+	top:0;
+	background-color:rgb(51,17,17);
+	width:28px;
+	height:28px;
+	animation-name:bounce_spinningSquaresG;
+		-o-animation-name:bounce_spinningSquaresG;
+		-ms-animation-name:bounce_spinningSquaresG;
+		-webkit-animation-name:bounce_spinningSquaresG;
+		-moz-animation-name:bounce_spinningSquaresG;
+	animation-duration:1.89s;
+		-o-animation-duration:1.89s;
+		-ms-animation-duration:1.89s;
+		-webkit-animation-duration:1.89s;
+		-moz-animation-duration:1.89s;
+	animation-iteration-count:infinite;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-iteration-count:infinite;
+	animation-direction:normal;
+		-o-animation-direction:normal;
+		-ms-animation-direction:normal;
+		-webkit-animation-direction:normal;
+		-moz-animation-direction:normal;
+	transform:scale(.3);
+		-o-transform:scale(.3);
+		-ms-transform:scale(.3);
+		-webkit-transform:scale(.3);
+		-moz-transform:scale(.3);
 }
 
-.cssload-squares span:nth-child(1) {
-	animation: rotateY 3.2s 0.235s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-o-animation: rotateY 3.2s 0.235s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-ms-animation: rotateY 3.2s 0.235s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-webkit-animation: rotateY 3.2s 0.235s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-moz-animation: rotateY 3.2s 0.235s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
+#spinningSquaresG_1{
+	left:0;
+	animation-delay:0.75s;
+		-o-animation-delay:0.75s;
+		-ms-animation-delay:0.75s;
+		-webkit-animation-delay:0.75s;
+		-moz-animation-delay:0.75s;
 }
-.cssload-squares span:nth-child(2) {
-	animation: rotateY 3.2s 0.48s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-o-animation: rotateY 3.2s 0.48s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-ms-animation: rotateY 3.2s 0.48s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-webkit-animation: rotateY 3.2s 0.48s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-moz-animation: rotateY 3.2s 0.48s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
+
+#spinningSquaresG_2{
+	left:29px;
+	animation-delay:0.94s;
+		-o-animation-delay:0.94s;
+		-ms-animation-delay:0.94s;
+		-webkit-animation-delay:0.94s;
+		-moz-animation-delay:0.94s;
 }
-.cssload-squares span:nth-child(3) {
-	animation: rotateY 3.2s 0.715s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-o-animation: rotateY 3.2s 0.715s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-ms-animation: rotateY 3.2s 0.715s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-webkit-animation: rotateY 3.2s 0.715s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-moz-animation: rotateY 3.2s 0.715s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
+
+#spinningSquaresG_3{
+	left:58px;
+	animation-delay:1.13s;
+		-o-animation-delay:1.13s;
+		-ms-animation-delay:1.13s;
+		-webkit-animation-delay:1.13s;
+		-moz-animation-delay:1.13s;
 }
-.cssload-squares span:nth-child(4) {
-	animation: rotateY 3.2s 0.96s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-o-animation: rotateY 3.2s 0.96s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-ms-animation: rotateY 3.2s 0.96s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-webkit-animation: rotateY 3.2s 0.96s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-moz-animation: rotateY 3.2s 0.96s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
+
+#spinningSquaresG_4{
+	left:88px;
+	animation-delay:1.32s;
+		-o-animation-delay:1.32s;
+		-ms-animation-delay:1.32s;
+		-webkit-animation-delay:1.32s;
+		-moz-animation-delay:1.32s;
 }
-.cssload-squares span:nth-child(5) {
-	animation: rotateY 3.2s 1.195s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-o-animation: rotateY 3.2s 1.195s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-ms-animation: rotateY 3.2s 1.195s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-webkit-animation: rotateY 3.2s 1.195s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
-		-moz-animation: rotateY 3.2s 1.195s infinite cubic-bezier(0.65, 0.03, 0.735, 0.045);
+
+#spinningSquaresG_5{
+	left:117px;
+	animation-delay:1.51s;
+		-o-animation-delay:1.51s;
+		-ms-animation-delay:1.51s;
+		-webkit-animation-delay:1.51s;
+		-moz-animation-delay:1.51s;
+}
+
+#spinningSquaresG_6{
+	left:146px;
+	animation-delay:1.7s;
+		-o-animation-delay:1.7s;
+		-ms-animation-delay:1.7s;
+		-webkit-animation-delay:1.7s;
+		-moz-animation-delay:1.7s;
+}
+
+#spinningSquaresG_7{
+	left:175px;
+	animation-delay:1.89s;
+		-o-animation-delay:1.89s;
+		-ms-animation-delay:1.89s;
+		-webkit-animation-delay:1.89s;
+		-moz-animation-delay:1.89s;
+}
+
+#spinningSquaresG_8{
+	left:205px;
+	animation-delay:2.07s;
+		-o-animation-delay:2.07s;
+		-ms-animation-delay:2.07s;
+		-webkit-animation-delay:2.07s;
+		-moz-animation-delay:2.07s;
 }
 
 
 
-@keyframes rotateY {
-	0% {
-		transform: rotateY(0deg);
+@keyframes bounce_spinningSquaresG{
+	0%{
+		transform:scale(1);
+		background-color:rgb(51,17,17);
 	}
-	50% {
-		transform: rotateY(90deg);
-		background: rgb(153,85,85);
-	}
-	100% {
-		transform: rotateY(0deg);
+
+	100%{
+		transform:scale(.3) rotate(90deg);
+		background-color:rgba(153,85,85,0.97);
 	}
 }
 
-@-o-keyframes rotateY {
-	0% {
-		-o-transform: rotateY(0deg);
+@-o-keyframes bounce_spinningSquaresG{
+	0%{
+		-o-transform:scale(1);
+		background-color:rgb(51,17,17);
 	}
-	50% {
-		-o-transform: rotateY(90deg);
-		background: rgb(153,85,85);
-	}
-	100% {
-		-o-transform: rotateY(0deg);
+
+	100%{
+		-o-transform:scale(.3) rotate(90deg);
+		background-color:rgba(153,85,85,0.97);
 	}
 }
 
-@-ms-keyframes rotateY {
-	0% {
-		-ms-transform: rotateY(0deg);
+@-ms-keyframes bounce_spinningSquaresG{
+	0%{
+		-ms-transform:scale(1);
+		background-color:rgb(51,17,17);
 	}
-	50% {
-		-ms-transform: rotateY(90deg);
-		background: rgb(153,85,85);
-	}
-	100% {
-		-ms-transform: rotateY(0deg);
+
+	100%{
+		-ms-transform:scale(.3) rotate(90deg);
+		background-color:rgba(153,85,85,0.97);
 	}
 }
 
-@-webkit-keyframes rotateY {
-	0% {
-		-webkit-transform: rotateY(0deg);
+@-webkit-keyframes bounce_spinningSquaresG{
+	0%{
+		-webkit-transform:scale(1);
+		background-color:rgb(51,17,17);
 	}
-	50% {
-		-webkit-transform: rotateY(90deg);
-		background: rgb(153,85,85);
-	}
-	100% {
-		-webkit-transform: rotateY(0deg);
+
+	100%{
+		-webkit-transform:scale(.3) rotate(90deg);
+		background-color:rgba(153,85,85,0.97);
 	}
 }
 
-@-moz-keyframes rotateY {
-	0% {
-		-moz-transform: rotateY(0deg);
+@-moz-keyframes bounce_spinningSquaresG{
+	0%{
+		-moz-transform:scale(1);
+		background-color:rgb(51,17,17);
 	}
-	50% {
-		-moz-transform: rotateY(90deg);
-		background: rgb(153,85,85);
-	}
-	100% {
-		-moz-transform: rotateY(0deg);
+
+	100%{
+		-moz-transform:scale(.3) rotate(90deg);
+		background-color:rgba(153,85,85,0.97);
 	}
 }
-
 
 .loader__p {
     margin: 1rem auto;
