@@ -1,4 +1,4 @@
-
+// 
 
 // Screen loader
 
@@ -13,7 +13,7 @@ setTimeout(function () {
     console.log(" HTML loaded");
     document.querySelector(".loader-container").classList.add("no-display"); //Get rid of the loader
   }
-}, 600);
+}, 600000);
 
 // Checking SVG support
 
@@ -115,7 +115,7 @@ var offset = {
 	educationY: education.top.offsetTop - 30,
 	skillsY: skills.top.offsetTop - 30,
 	interestsY: interests.top.offsetTop - 30,
-	awardsY: awards.top.offsetTop - 60
+	awardsY: awards.top.offsetTop - 30
  }; 
 // Re-updates the offset upon resizing
 window.onresize = function (event) {
@@ -125,7 +125,7 @@ window.onresize = function (event) {
 	educationY = education.top.offsetTop - 30;
 	skillsY = skills.top.offsetTop - 30; 
 	interestsY = interests.top.offsetTop - 30;
-	awardsY = awards.top.offsetTop - 60;
+	awardsY = awards.top.offsetTop - 30;
 
 	
 };
@@ -224,33 +224,28 @@ for(let index = 0; index < navbar.menuitem.length; index++) {
 
 }
 
-navbar.menuitem[5].addEventListener("click", function(event){
+// navbar.menuitem[5].addEventListener("click", function(event){
 	// if (!(navbar.indicator[5].classList.contains("show"))) { }
-	let distanceY = offset.awardsY - window.scrollY;
-	event.preventDefault();
-	window.scrollTo(0, (0.05 * distanceY));
-	setTimeout(function(){
-		window.scrollTo(0, (0.07 * distanceY));
-	}, 50)
-	setTimeout(function(){
-		window.scrollTo(0, (0.10 * distanceY));
-	}, 150)
-	setTimeout(function(){
-		window.scrollTo(0, (0.50 * distanceY));
-	}, 200)
-	setTimeout(function(){
-		window.scrollTo(0, (0.80 * distanceY));
-	}, 250)
-	setTimeout(function(){
-		window.scrollTo(0, (0.85 * distanceY));
-	}, 300)
-	setTimeout(function(){
-		window.scrollTo(0, (0.90 * distanceY));
-	}, 350)
-	setTimeout(function(){
-		window.scrollTo(0, (0.95 * distanceY));
-	}, 400)
-	setTimeout(function(){
-		window.scrollTo(0, (1 * distanceY));
-	}, 450)
-})
+	// let distanceY = offset.awardsY - (window.scrollY);
+	// event.preventDefault();
+	// window.scrollBy(0, (0.0001 * distanceY));
+	// setTimeout(function(){let distanceY = offset.awardsY - (window.scrollY); window.scrollBy(0, (0.0002 * distanceY));}, 30)
+	// setTimeout(function(){let distanceY = offset.awardsY - (window.scrollY); window.scrollBy(0, (0.0004 * distanceY));}, 60)
+	// setTimeout(function(){let distanceY = offset.awardsY - (window.scrollY); window.scrollBy(0, (0.0008 * distanceY));}, 90)
+	// setTimeout(function(){let distanceY = offset.awardsY - (window.scrollY); window.scrollBy(0, (0.0016 * distanceY));}, 120)
+	// setTimeout(function(){let distanceY = offset.awardsY - (window.scrollY); window.scrollBy(0, (0.0032 * distanceY));}, 150)
+	// setTimeout(function(){let distanceY = offset.awardsY - (window.scrollY); window.scrollBy(0, (0.0128 * distanceY));}, 210)
+	// setTimeout(function(){let distanceY = offset.awardsY - (window.scrollY); window.scrollBy(0, (0.0512 * distanceY));}, 270)
+	// setTimeout(function(){let distanceY = offset.awardsY - (window.scrollY); window.scrollBy(0, (0.2000 * distanceY));}, 330)
+	// setTimeout(function(){let distanceY = offset.awardsY - (window.scrollY); window.scrollBy(0, (0.5000 * distanceY));}, 360)
+	// setTimeout(function(){let distanceY = offset.awardsY - (window.scrollY); window.scrollBy(0, (0.55 * distanceY));}, 420)
+	// setTimeout(function(){let distanceY = offset.awardsY - (window.scrollY); window.scrollBy(0, (1 * distanceY));}, 480)})
+
+
+
+
+
+
+
+
+
