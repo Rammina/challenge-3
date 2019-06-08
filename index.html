@@ -59,7 +59,7 @@
             <div class="nav__items-container">
                 <ul class="nav__items">
 
-                    <li><a class="nav__item current" href="#"><img class="indicator show" src="main/images/right-arrow.png" alt="pointer">About</a></li>
+                    <li><a data-scroll class="nav__item current" href="#"><img class="indicator show" src="main/images/right-arrow.png" alt="pointer">About</a></li>
                     <li><a class="nav__item" href="#experience-section"><img class="indicator" src="main/images/right-arrow.png" alt="pointer">Experience</a></li>
                     <li><a class="nav__item" href="#education-section"><img class="indicator" src="main/images/right-arrow.png" alt="pointer">Education</a></li>
                     <li><a class="nav__item" href="#skills-section"><img class="indicator" src="main/images/right-arrow.png" alt="pointer">Skills</a></li>
@@ -341,8 +341,9 @@
             </div><div></div>
         </section>
     </main>
-
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
     <script type="text/javascript" src="shared/js/shared.js"></script>
     <script type="text/javascript" src="main/js/main.js"></script>
+    <script type="text/javascript"> var scroll = new SmoothScroll('a[href*="#"]', {easing: 'easeInOutQuart'});</script>
 </body>
 </html>
